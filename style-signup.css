@@ -60,11 +60,12 @@ body{
         height: 2rem;
         font-size: 16px;
         text-align: center;
+        margin-bottom: 1rem;
     }
     .red-box{
         background-color: red;
         color: black;
-        visibility: hidden;
+        /* visibility: hidden; */
         margin-bottom: 1vh;
         margin-top: 1vh;
     }
@@ -78,6 +79,35 @@ body{
     .name-su{
         margin-top: 10px;
     }
+    /* The alert message box */
+.alert{
+    padding: 10px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 10px;
+  }
+  .alert1{
+    padding: 10px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 10px;
+  }
+  /* The close button */
+  .closebtn{
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
     .input-password-logind{
         width: 20rem;
         border-radius: 20px;
@@ -146,7 +176,6 @@ body{
     nav{
         background-color: #187a74;
         height: 10vh;
-
     }
     .flexbox-container{
         display: flex;
