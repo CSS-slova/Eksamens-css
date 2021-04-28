@@ -56,15 +56,86 @@ body{
     }
     .input-password{
         width: 20rem;
-        margin-bottom: 2rem;
         border-radius: 20px;
         height: 2rem;
         font-size: 16px;
         text-align: center;
     }
+    .red-box{
+        background-color: red;
+        color: black;
+        visibility: hidden;
+        margin-bottom: 1vh;
+        margin-top: 1vh;
+    }
+    .red-box1{
+        background-color: red;
+        color: black;
+        visibility: hidden;
+        margin-bottom: 1vh;
+        margin-top: 1vh;
+    }
     .name-su{
         margin-top: 10px;
     }
+    .input-password-logind{
+        width: 20rem;
+        border-radius: 20px;
+        height: 2rem;
+        font-size: 16px;
+        text-align: center;
+    }
+    .stay-login{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .checkbox{
+        background-color: #022546;
+    }
+    .button4 span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+        }
+    
+        .button4 span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+        }
+    
+        .button4:hover span {
+        padding-right: 25px;
+        }
+    
+        .button4:hover span:after {
+        opacity: 1;
+        right: 0;
+        }
+        .button4{
+            width: 20rem;
+            border-radius: 20px;
+            height: 2rem;
+            font-size: 20px;
+            border: 1px solid black;
+            cursor: pointer;
+            color: white;
+            background-color: #022546;
+        }
+        .wth-pic{
+            margin-bottom: 8rem;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .file{
+            text-align: center;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
     
 @media screen and (orientation: landscape){
     #app{
