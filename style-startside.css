@@ -264,8 +264,10 @@ body{
     background: #022546;
     color: white;
     border-bottom: 1px solid #DDD;
-    display: flex;
+    display: grid;
+    grid-template-columns:  200px 200px 200px 200px;
     align-items: center;
+    text-align: center;
     justify-content: center;
     border-radius: 10px;
     margin: 0 auto;
@@ -362,17 +364,31 @@ body{
 }
   .grid-container{
     width:100%;
-    height: 200px;
+    height: auto;
     background: #022546;
     color: white;
     border-bottom: 1px solid #DDD;
     display: grid;
-    grid-template-columns: 100px;
-    align-items: center;
+    grid-template-columns:  200px 200px;
+   align-items: center;
     justify-content: center;
     border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
     margin: 0 auto;
     position: relative;
     list-style: none;
   }
+  .grid-item p{
+      margin-bottom: 10px;
+  }
+  .grid-item-1 img{
+      margin-top: 10px;
+  }
+  .grid-item-2 img{
+    margin-top: 10px;
+}
+  /* .badge-4{
+      visibility: hidden;
+  } */
 } 
