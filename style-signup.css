@@ -13,6 +13,7 @@ body{
     transition: 0.5s;
     }
 
+    /*RET DIN FKN BUTTONS*/
     .button1 span:after {
     content: '\00bb';
     position: absolute;
